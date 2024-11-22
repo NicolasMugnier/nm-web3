@@ -189,7 +189,7 @@ const App = () => {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2024 - Nicolas Mugnier.</p>
+        <p>&copy; 2024</p>
       </footer>
     </div>
   );
