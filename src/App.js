@@ -189,7 +189,7 @@ const App = () => {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2024</p>
+        <p>&copy; 2024, Le Web3, c'est quoi ?</p>
       </footer>
     </div>
   );
