@@ -1,0 +1,12 @@
+[
+    { "to": "decentralization", "label": "Décentralisation" },
+    { "to": "data", "label": "Données" },
+    { "to": "transparency", "label": "Transparence" },
+    { "to": "contracts", "label": "Contrats" },
+    { "to": "tokenization", "label": "Tokenisation" },
+    { "to": "interoperability", "label": "Interopérabilité" },
+    { "to": "censorship", "label": "Censure" },
+    { "to": "security", "label": "Sécurité" },
+    { "to": "financial", "label": "Finance" },
+    { "to": "governance", "label": "Gouvernance" }
+]

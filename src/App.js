@@ -1,131 +1,14 @@
-import React, { useState } from "react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import React from "react";
+import { Menu } from './Menu';
 import "./App.css";
 
 const App = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
-
+  
   return (
     <div>
       <header className="header">
         <h1>Web3</h1>
-        <nav>
-          <div className="hamburger" onClick={toggleMenu}>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <ul className={`menu ${menuOpen ? "show" : ""}`}>
-            <li>
-              <ScrollLink
-                to="decentralization"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Décentralisation
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="data"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Données
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="transparency"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Transparence
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="contracts"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Contrats
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="tokenization"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Tokenisation
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="interoperability"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Interopérabilité
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="censorship"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Censure
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="security"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Sécurité
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="financial"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Finance
-              </ScrollLink>
-            </li>
-            <li>
-              <ScrollLink
-                to="governance"
-                smooth={true}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Gouvernance
-              </ScrollLink>
-            </li>
-          </ul>
-        </nav>
+        <Menu />
       </header>
 
       <section id="decentralization" data-testid="decentralization" className="section decentralization">
