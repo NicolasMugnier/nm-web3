@@ -1,6 +1,6 @@
 # nm-web3
 
-![web3](./public/web3-miniature.jpg)
+![web3](./public/web3-miniature.png)
 
 Just a quick introduction to Web3
 
