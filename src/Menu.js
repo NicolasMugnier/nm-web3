@@ -1,8 +1,24 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
-import links from './data/links.json'
+import { LanguageContext } from "./LanguageContext";
 
 export const Menu = () => {
+
+  const [links, setLinks] = useState([]);
+  const { language } = useContext(LanguageContext);
+
+  useEffect(() => {
+    const loadLinks = async () => {
+      try {
+        const data = await import(`./data/${language}/links.json`);
+        setLinks(data.default);
+      } catch (err) {
+        console.error("Can't load data for selected language :", err);
+      }
+    };
+
+    loadLinks();
+  }, [language]);
 
   const [menuOpen, setMenuOpen] = useState(false);
 

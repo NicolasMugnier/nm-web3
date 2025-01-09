@@ -1,0 +1,52 @@
+[
+    {
+        "id": "decentralization",
+        "title": "Decentralization",
+        "content": "<p>Web3 is built on a decentralized network, where data and applications are no longer stored or controlled by centralized servers but are instead distributed across independent nodes. This eliminates single points of failure and reduces the risks of censorship or hacking. Users retain control of their information and interact directly on a peer-to-peer basis.</p><p><b>Associated technology</b>: Blockchains, such as Ethereum, ensure decentralization through distributed and immutable structures. Peer-to-peer (P2P) networks like IPFS enable decentralized data storage and sharing.</p>"
+    },
+    {
+        "id": "data",
+        "title": "Propriété des données",
+        "content": "<p>In Web3, users own and directly control their personal and digital data. Unlike Web2, where platforms collect and exploit data, Web3 uses digital wallets to provide autonomous access.</p><p><b>Associated technology</b>: Digital wallets based on private keys enable users to manage their digital identities. These keys ensure secure access to decentralized applications (dApps) and assets like tokens or NFTs.</p>"
+    },
+    {
+        "id": "transparency",
+        "title": "Transparency",
+        "content": "<p>All transactions and interactions on Web3 are recorded on the blockchain, making the data traceable, immutable, and publicly accessible. This fosters trust, as parties can verify processes without intermediaries.</p><p><b>Associated technology</b>: Public blockchains like Ethereum or Solana use consensus mechanisms (Proof of Work or Proof of Stake) to validate transactions. Blockchain explorers allow real-time visualization of all activities.</p>"
+    },
+    {
+        "id": "contracts",
+        "title": "Automation through smart contracts",
+        "content": "<p>Smart contracts are autonomous programs that execute automatically once predefined conditions are met. They eliminate the need for intermediaries in transactions and agreements.</p><p><b>Associated technology</b>: Written in languages like Solidity, these contracts are deployed on blockchains and operate in an immutable and verifiable manner. Blockchain oracles, such as Chainlink, connect smart contracts to external data for advanced functionalities.</p>"
+    },
+    {
+        "id": "tokenization",
+        "title": "Tokenization and the Digital Economy",
+        "content": "<p>Web3 enables the representation of physical or digital assets in the form of tokens. These tokens can be exchanged, transferred, or divided, facilitating the global digital economy.</p><p><b>Associated technology</b>: ERC-20 (fungible) and ERC-721 (non-fungible) tokens on Ethereum are used to create cryptocurrencies, NFTs, or governance tokens. DeFi protocols leverage these tokens for decentralized lending, borrowing, or trading.</p>"
+    },
+    {
+        "id": "interoperability",
+        "title": "Interoperability",
+        "content": "<p>Web3 promotes an ecosystem where different blockchains and applications can interact and exchange data or assets. This enables a seamless user experience across various networks.</p><p><b>Associated technology</b>: Protocols like Polkadot or Cosmos use bridge mechanisms to connect different blockchains. Common standards, such as open APIs and token formats, enhance interoperability.</p>"
+    },
+    {
+        "id": "censorship",
+        "title": "Censorship Resistance",
+        "content": "<p>Decentralized systems in Web3 cannot be controlled or censored by a single entity, ensuring greater freedom of expression and action for users.</p><p><b>Associated technology</b>: Data and applications hosted on decentralized networks like Filecoin or Arweave remain accessible even in the face of blocking attempts. Public blockchains are open to everyone and cannot be altered without consensus.</p>"
+    },
+    {
+        "id": "security",
+        "title": "Enhanced Security",
+        "content": "<p>The decentralized architectures and cryptographic mechanisms of Web3 provide enhanced security, reducing vulnerabilities to attacks such as hacking or centralized data breaches.</p><p><b>Associated technology</b>: Asymmetric cryptography secures transactions and data. Distributed consensus mechanisms, such as Proof of Stake, prevent 51% attacks. Decentralized wallets ensure exclusive control by the user.</p>"
+    },
+    {
+        "id": "financial",
+        "title": "Financial Inclusion",
+        "content": "<p>Web3 provides financial solutions accessible to everyone, without relying on traditional banks or institutions. This allows billions of unbanked people to participate in the digital economy.</p><p><b>Associated technology</b>: DeFi (decentralized finance) protocols enable lending, borrowing, and investing through platforms like Aave or Uniswap, accessible with just a wallet and an Internet connection.</p>"
+    },
+    {
+        "id": "governance",
+        "title": "Community Economy and Governance",
+        "content": "<p>Web3 promotes community-driven models where users actively participate in the management and development of platforms through DAOs (Decentralized Autonomous Organizations).</p><p><b>Associated technology</b>: Governance tokens, such as UNI or MKR, allow holders to vote on key project decisions. DAOs operate through smart contracts that define transparent rules and execute them automatically.</p>"
+    }
+]
