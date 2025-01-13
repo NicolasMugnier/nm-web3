@@ -23,7 +23,7 @@ export const Footer = () => {
         <footer className="footer">
         <div className="info" dangerouslySetInnerHTML={{ __html: footer.content }}>
         </div>
-        <p>&copy; 2025 - Nicolas Mugnier</p>
+        <p>&copy; 2025 - anyvoid.eth</p>
       </footer>
     );
 };
