@@ -6,7 +6,7 @@
     },
     {
         "id": "data",
-        "title": "Propriété des données",
+        "title": "Data Ownership",
         "content": "<p>In Web3, users own and directly control their personal and digital data. Unlike Web2, where platforms collect and exploit data, Web3 uses digital wallets to provide autonomous access.</p><p><b>Associated technology</b>: Digital wallets based on private keys enable users to manage their digital identities. These keys ensure secure access to decentralized applications (dApps) and assets like tokens or NFTs.</p>"
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "id": "contracts",
-        "title": "Automation through smart contracts",
+        "title": "Automation through Smart Contracts",
         "content": "<p>Smart contracts are autonomous programs that execute automatically once predefined conditions are met. They eliminate the need for intermediaries in transactions and agreements.</p><p><b>Associated technology</b>: Written in languages like Solidity, these contracts are deployed on blockchains and operate in an immutable and verifiable manner. Blockchain oracles, such as Chainlink, connect smart contracts to external data for advanced functionalities.</p>"
     },
     {
