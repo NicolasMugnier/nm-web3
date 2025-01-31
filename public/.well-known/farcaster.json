@@ -1,0 +1,17 @@
+{
+    "accountAssociation": {
+      "header": "eyJmaWQiOjkwODUxNCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEVlODZjMDBFYmU1Njk1NGMxMDJlQTIwNzQ1NjZhZGEwQzIzNTU2RmIifQ",
+      "payload": "eyJkb21haW4iOiJ3ZWIzLmFueXZvaWQueHl6In0",
+      "signature": "MHg1ZTY4ZmFiYTk2MzI4NGE3YzFlNzAyZGU4ZDI3ODJhYWVkZTRmOWNhMjhjYmMwZmU1NGRjYmQ2MTdlNzBlMjZhNjk4ZTc4MjJiM2NlNjM3NDcyN2YxZjg2YzY0NDk2OWNmYTAwNTVkOGUzNjJkYTBkNTM5MTZkMjg2OWVhZTYyZjFi"
+    },
+    "frame": {
+      "version": "1",
+      "name": "Web3 Principles",
+      "iconUrl": "https://web3.anyvoid.xyz/splash.png",
+      "homeUrl": "https://web3.anyvoid.xyz",
+      "imageUrl": "https://web3.anyvoid.xyz/web3-principles.png",
+      "buttonTitle": "Read",
+      "splashImageUrl": "https://web3.anyvoid.xyz/splash.png",
+      "splashBackgroundColor": "#131313"
+    }
+  }
