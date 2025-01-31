@@ -7,11 +7,11 @@
     "frame": {
       "version": "1",
       "name": "Web3 Principles",
-      "iconUrl": "https://web3.anyvoid.xyz/icon.png",
+      "iconUrl": "https://web3.anyvoid.xyz/splash.png",
       "homeUrl": "https://web3.anyvoid.xyz",
-      "imageUrl": "https://web3.anyvoid.xyz/web3-miniature.png",
+      "imageUrl": "https://web3.anyvoid.xyz/web3-principles.png",
       "buttonTitle": "Read",
-      "splashImageUrl": "https://web3.anyvoid.xyz/web3-miniature.png",
-      "splashBackgroundColor": "#eeccff"
+      "splashImageUrl": "https://web3.anyvoid.xyz/splash.png",
+      "splashBackgroundColor": "#131313"
     }
   }
